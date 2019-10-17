@@ -43,7 +43,7 @@ def get_b2_auth():
 def download_from_b2():
     token = get_b2_auth()
     file_name = "the file path and name you want to save to"
-    file_url = "url where you're hosting files" + nameOfFileYouNeed + "?Authorization=" + token
+    file_url = "url where you're hosting files" + string_of_the_file_name_you_need + "?Authorization=" + token
     
     # B2 would act up if we didn't add a Firefox user agent for whatever reason
     opener = urllib.request.build_opener()
