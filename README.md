@@ -8,3 +8,6 @@ Allows users to run functions ("modules") on a specific instance they pick store
 
 ## uptime_calculator.py	
 Calculates how long a Docker container has been up for based on its start date and and updates its uptime in a MySQL database. This is designed to calculate minutely uptime, so we recommend you run it on a minutely cron job (but it's not required).
+
+## download_from_domain_b2_priv.py
+Allows you to download files from a private Backblaze B2 bucket over a URL. Useful if you're using Cloudflare.
