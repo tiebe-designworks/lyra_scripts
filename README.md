@@ -8,4 +8,5 @@ Allows users to run functions ("modules") on a specific instance they pick store
 
 ## uptime_calculator.py	
 Calculates how long a Docker container has been up for based on its start date and and updates its uptime in a MySQL database.
+
 This is designed to calculate minutely uptime, so we recommend you run it on a minutely cron job (but it's not required).
