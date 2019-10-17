@@ -1,6 +1,7 @@
+# Lyra scripts
 Here are some of the scripts and functions we use in Lyra - open-source and free for you to use.
 
-# Requirements
+## Requirements
 discord.py (1.3.0a used)
 
 ---
