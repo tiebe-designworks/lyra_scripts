@@ -1,16 +1,16 @@
 ### instance_picker.py: Allows users to run functions ("modules") on a specific instance they pick stored in a central database.
 ### Created by Justin Cuozzo (@cosmopath on Github)
 ### This script is used as one of the functions in the front-end script for Lyra.
-# -----------------------------------------------------------------------------------------------
+
 import asyncio
 import discord
 from discord.ext import commands
 import re
-# -----------------------------------------------------------------------------------------------
+
 emoji_nums = ["1⃣", "2⃣", "3⃣", "4⃣", "5⃣", "6⃣", "7⃣", "8⃣", "9⃣", "🔟"] # For emoji reactions
-# -----------------------------------------------------------------------------------------------
+
 # Make sure you create the bot object here and pass in your bot's token first!
-# -----------------------------------------------------------------------------------------------
+
 # Async function to communicate to another back-end script through a local Unix socket
 async def async_comms(command, args):
 	reader, writer = await asyncio.open_unix_connection("/tmp/docker.socket")
