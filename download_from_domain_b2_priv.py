@@ -3,6 +3,8 @@
 ### This script is used as one of the functions in the back-end script for Lyra.
 
 from b2sdk.v1 import * # https://pypi.org/project/b2sdk/
+import base64
+import json
 import requests
 import urllib.request
 
