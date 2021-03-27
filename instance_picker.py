@@ -1,5 +1,5 @@
 ### instance_picker.py: Allows users to run functions ("modules") on a specific instance they pick stored in a central database.
-### Created by Justin Cuozzo (@cosmopath on Github)
+### Created by Cam Cuozzo (@camcuozzo on Github)
 ### This script is used as one of the functions in the front-end script for Lyra.
 
 import asyncio
