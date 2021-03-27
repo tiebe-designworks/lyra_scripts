@@ -1,5 +1,5 @@
 ### download_from_domain_b2_priv.py: Allows you to download files from a private Backblaze B2 bucket over a URL. Useful if you're using Cloudflare.
-### Created by Justin Cuozzo (@cosmopath on Github)
+### Created by Cam Cuozzo (@camcuozzo on Github)
 ### This script is used as one of the functions in the back-end script for Lyra.
 
 from b2sdk.v1 import * # https://pypi.org/project/b2sdk/
