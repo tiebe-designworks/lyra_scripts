@@ -1,6 +1,6 @@
 ### uptime_calculator.py: Calculates how long a Docker container has been up for based on its start date and and updates its uptime in a MySQL database.
 ### This is designed to calculate minutely uptime, so we recommend you run it on a minutely cron job (but it's not required).
-### Created by Justin Cuozzo (@cosmopath on Github)
+### Created by Cam Cuozzo (@camcuozzo on Github)
 ### This script is used as one of the functions in the back-end script for Lyra.
 
 import docker
